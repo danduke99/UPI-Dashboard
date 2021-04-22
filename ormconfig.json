@@ -1,0 +1,18 @@
+{
+  "type": "mysql",
+  "host": "us-cdbr-east-03.cleardb.com",
+  "port": 3306,
+  "username": "b49b32df6c06f5",
+  "password": "808d0428",
+  "database": "heroku_8287ccc07a63f77",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/entity/**/*.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}
